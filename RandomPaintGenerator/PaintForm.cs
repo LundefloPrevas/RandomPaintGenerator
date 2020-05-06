@@ -88,7 +88,12 @@ namespace RandomPaintGenerator
             pictureBox1.Image = bmp;
 
             //Save (write) random pixel image
-            bmp.Save("C:\\Users\\chlo\\Documents\\PaintFormFolder\\RandomPaint.png");
+            //bmp.Save("C:\\Users\\chlo\\Documents\\PaintFormFolder\\RandomPaint.png");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
